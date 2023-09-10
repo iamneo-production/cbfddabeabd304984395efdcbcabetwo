@@ -1,0 +1,80 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Radio+Canada:wght@400;500;600;700&display=swap");
+
+body {
+    background-image: url("https://cdn.pixabay.com/photo/2018/03/17/19/36/connection-3234929_1280.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    font-family: "Radio Canada", sans-serif;
+  }
+  /* Apply styles to the main container */
+.board {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 35px;
+}
+
+/* Apply styles to each row within the board */
+.cell {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 35px;
+}
+
+/* Apply styles to buttons */
+.btn {
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  text-align: center;
+  font-weight: 500;
+  background-color: rgba(255, 255, 255, 0.8);
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+/* Apply styles to disabled buttons */
+.btn[disabled] {
+  color: black;
+  cursor: not-allowed;
+}
+
+/* Apply styles to the result container */
+.result {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid #000;
+  max-width: 200px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 25px;
+  padding: 10px;
+}
+
+/* Apply styles to the reset section */
+#reset {
+  text-align: center;
+}
+
+/* Apply styles to the reset button */
+#reset button {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+#reset button:hover {
+  background-color: #333;
+  color: white;
+}
+
+  
+/* Enter your styling here */
